@@ -7,4 +7,8 @@ class BudgetBase(BaseModel):
     description: str | None = None
     limit: int
     current_progress: int | None
-    expenses: list[ExpenseBase]
+    expenses: list[ExpenseBase] | None
+
+
+class BudgetCreate(BudgetBase):
+    pass
