@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .routers import budgets, expenses
+from .endpoints import budgets, expenses
 
 
 app = FastAPI()
