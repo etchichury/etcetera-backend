@@ -1,5 +1,8 @@
 {
-    "python.analysis.typeCheckingMode": "strict",
-    "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true
+  "python.analysis.typeCheckingMode": "strict",
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "material-icon-theme.folders.associations": {
+    "endpoints": "Routes"
+  }
 }
